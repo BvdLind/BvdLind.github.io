@@ -736,6 +736,20 @@ footer {
     font-size: 0.9em;
     padding: 5px 10px;
   }
+  #experience-timeline:before {
+    content: none;
+    width: 0;
+  }
+  #experience-timeline:after {
+    content: none;
+  }
+  .vtimeline-icon {
+    display: none;
+  }
+  .vtimeline-content {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 992px) {
   #translateBtnGroup {
